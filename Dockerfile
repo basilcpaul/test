@@ -2,4 +2,4 @@ FROM tomcat:latest
 
 MAINTAINER basil
 
-COPY target/*.war /usr/local/tomcat/webapps
+COPY ./target/webapp.war /usr/local/tomcat/webapps
